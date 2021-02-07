@@ -1,0 +1,723 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "9622e8bd7cc72a7dab819a8011ecbf81d443638082e5cb99ecf2e75ff56ffc9d",
+        "signature": "9622e8bd7cc72a7dab819a8011ecbf81d443638082e5cb99ecf2e75ff56ffc9d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.d.ts": {
+        "version": "e6b724280c694a9f588847f754198fb96c43d805f065c3a5b28bbc9594541c84",
+        "signature": "e6b724280c694a9f588847f754198fb96c43d805f065c3a5b28bbc9594541c84",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.d.ts": {
+        "version": "e21c071ca3e1b4a815d5f04a7475adcaeea5d64367e840dd0154096d705c3940",
+        "signature": "e21c071ca3e1b4a815d5f04a7475adcaeea5d64367e840dd0154096d705c3940",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.d.ts": {
+        "version": "fc7a21dd3ee27fd0a9ff1c46534efcd9c3cec51a445b479bb326d871c0aa8302",
+        "signature": "fc7a21dd3ee27fd0a9ff1c46534efcd9c3cec51a445b479bb326d871c0aa8302",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "signature": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "d42f4141bd9ce82b4e2902f26acb00c183e321be19a38bbc0e76a922c1724c94",
+        "signature": "d42f4141bd9ce82b4e2902f26acb00c183e321be19a38bbc0e76a922c1724c94",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
+        "signature": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.array.d.ts": {
+        "version": "9d57b2b5d15838ed094aa9ff1299eecef40b190722eb619bac4616657a05f951",
+        "signature": "9d57b2b5d15838ed094aa9ff1299eecef40b190722eb619bac4616657a05f951",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.object.d.ts": {
+        "version": "6c51b5dd26a2c31dbf37f00cfc32b2aa6a92e19c995aefb5b97a3a64f1ac99de",
+        "signature": "6c51b5dd26a2c31dbf37f00cfc32b2aa6a92e19c995aefb5b97a3a64f1ac99de",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.string.d.ts": {
+        "version": "93544ca2f26a48716c1b6c5091842cad63129daac422dfa4bc52460465f22bb1",
+        "signature": "93544ca2f26a48716c1b6c5091842cad63129daac422dfa4bc52460465f22bb1",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.symbol.d.ts": {
+        "version": "2ad234885a4240522efccd77de6c7d99eecf9b4de0914adb9a35c0c22433f993",
+        "signature": "2ad234885a4240522efccd77de6c7d99eecf9b4de0914adb9a35c0c22433f993",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "signature": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.promise.d.ts": {
+        "version": "7435b75fdf3509622e79622dbe5091cf4b09688410ee2034e4fc17d0c99d0862",
+        "signature": "7435b75fdf3509622e79622dbe5091cf4b09688410ee2034e4fc17d0c99d0862",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts": {
+        "version": "e7e8e1d368290e9295ef18ca23f405cf40d5456fa9f20db6373a61ca45f75f40",
+        "signature": "e7e8e1d368290e9295ef18ca23f405cf40d5456fa9f20db6373a61ca45f75f40",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.string.d.ts": {
+        "version": "faf0221ae0465363c842ce6aa8a0cbda5d9296940a8e26c86e04cc4081eea21e",
+        "signature": "faf0221ae0465363c842ce6aa8a0cbda5d9296940a8e26c86e04cc4081eea21e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts": {
+        "version": "936d7d2e8851af9ccfa5333b15e877a824417d352b1d7fd06388639dc69ef80a",
+        "signature": "936d7d2e8851af9ccfa5333b15e877a824417d352b1d7fd06388639dc69ef80a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.intl.d.ts": {
+        "version": "31e8df2398e328077079c17ea4f1664bad0a34adf8b0608837e504e310e329a1",
+        "signature": "31e8df2398e328077079c17ea4f1664bad0a34adf8b0608837e504e310e329a1",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.string.d.ts": {
+        "version": "fb4416144c1bf0323ccbc9afb0ab289c07312214e8820ad17d709498c865a3fe",
+        "signature": "fb4416144c1bf0323ccbc9afb0ab289c07312214e8820ad17d709498c865a3fe",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.promise.d.ts": {
+        "version": "cd6efb9467a8b6338ece2e2855e37765700f2cd061ca54b01b33878cf5c7677e",
+        "signature": "cd6efb9467a8b6338ece2e2855e37765700f2cd061ca54b01b33878cf5c7677e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.weakref.d.ts": {
+        "version": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
+        "signature": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
+        "affectsGlobalScope": true
+      },
+      "../src/common/utils/polyfills.js": {
+        "version": "7743d44597448d45f615e76d7c90b519b7fdd1290eff8fcaeffb1d9fefc09404",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../src/context/GalleryContext.js": {
+        "version": "6027541ca847a964244e04912b91ef3dc85150040b9c7b89d03368aceb1f0361",
+        "signature": "12414ac485c28817d9617644680e47221cb6e1735905e36b6debd976c40ceebe",
+        "affectsGlobalScope": false
+      },
+      "../src/components/galleryComponent.js": {
+        "version": "4f38deaa1018957f01f8c9a0d9d92da7d6b7efce5d20a7e02844f7668a1a618c",
+        "signature": "30cab4b954d0809985eea3de7a5d55f8729c29c263a6f020cdf55c9165cc0fb5",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/proGallery/galleryDebugMessage.js": {
+        "version": "5f52c99c24bcfcc2cbe4f57da32ca7d797fc662e1480182bcaeb46f50e8a6572",
+        "signature": "3bced6a794cbbacfc185a2061f647a532fa650e027942687aad8d0949c337627",
+        "affectsGlobalScope": false
+      },
+      "../src/components/item/imageItem.js": {
+        "version": "4fa975c37ef88d794404c6ababae6b0796093fc8614570c4a51341f22942fef9",
+        "signature": "a5025df8dca61e86c8b7cab769f30007044a759f2be55a7145ff702bb9a47214",
+        "affectsGlobalScope": false
+      },
+      "../src/components/item/textItem.js": {
+        "version": "dbf83241414fcb7201681aaa10307701f5ec7a859d596a88415729105bede1e3",
+        "signature": "4b4f33e799c2369fd8b82b6193c516a25eb20f05e100cc54699ed7b8ff76f8cf",
+        "affectsGlobalScope": false
+      },
+      "../src/components/item/itemHover.js": {
+        "version": "79b95864701edbd084afaada1300d72ec76e27cf2cfe674cf0563f519cefdc92",
+        "signature": "4ed5c97c1c54d7a4edabe4219a1ae2f98b17a1fc36e65773dd9219b56ccb80fc",
+        "affectsGlobalScope": false
+      },
+      "../src/components/helpers/cssScrollHelper.js": {
+        "version": "0547148004e605b1cfd839feae4e5a761a0748d79971fbc18f3214772f424a38",
+        "signature": "d6cbe587f8abc8f5ad6896996e427a053b6a06bca7dceacf8c4b9e853b779186",
+        "affectsGlobalScope": false
+      },
+      "../src/components/item/itemViewStyleProvider.js": {
+        "version": "58a20190c0132d523303e6a3e5a36e2571952788c7765d837ca49d37f4b7ba38",
+        "signature": "032a3dec5df84e107be46485c982d7d8c1dcc401b2e59059e5c573600dd3a438",
+        "affectsGlobalScope": false
+      },
+      "../src/components/svgs/components/play_background.js": {
+        "version": "d9eff6aba616b8c5fd11301e4798d3baff332ec55e5d226c572b206d87b3e39e",
+        "signature": "373873ca80af4fcb3773881e2f5f0cb7d383b7e96f92aedc7ca9b422bd393eb4",
+        "affectsGlobalScope": false
+      },
+      "../src/components/svgs/components/play_triangle.js": {
+        "version": "e3a0c65525bf4b240ad922370a0c23c1540d0edf9dec91ca68a47a602ba3f2a0",
+        "signature": "242ce32d5d2f873a0895ca601d39605d435043e0288aa4e3720c2abaf02c2233",
+        "affectsGlobalScope": false
+      },
+      "../src/components/item/videos/videoItemPlaceholder.js": {
+        "version": "42444c0be839e42ff094fd5d5b31fb7f01cf342d20487bde3a3b16c6b46c5521",
+        "signature": "e02867966fa2312d6fe317490e7c81b799e32eb94548e97f6692da35d13e0fd6",
+        "affectsGlobalScope": false
+      },
+      "../src/components/item/videos/videoItem.js": {
+        "version": "c48642c9b14a78020bf468ce8d2d995398f3d4a2565fe01ee52bfa73f782a224",
+        "signature": "75db4e6db67a3d1390b7bb0317b9073218777932571cf1a276a40cc0edf65581",
+        "affectsGlobalScope": false
+      },
+      "../src/components/item/videos/videoItemWrapper.js": {
+        "version": "986e7f1a1667276acdd026cb0e5451c32212a5003bbb3130f4d28e8f3c518272",
+        "signature": "ade2a5284062f927c13523a235c15e3f2b51465cd95e4c148dd6e827ef06f3a4",
+        "affectsGlobalScope": false
+      },
+      "../src/components/item/itemView.js": {
+        "version": "d1c39ff8f5e96bab6d27189862319bd85b96ccbe6e8af69edbccecd60c19dc2c",
+        "signature": "8ddc7a61533b8171518ae863591d8fbf958a96d6b8645ca79f6a5ecae6bca855",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/proGallery/galleryView.js": {
+        "version": "c3ef4792f0d532e2b996c4dddd2b3228936e3b90e677c2bb53d559170413d326",
+        "signature": "4aa54185ef755b39e0dc0fa21f1ca90f92f0d9ccb6488afa705024b8cf2f7a92",
+        "affectsGlobalScope": false
+      },
+      "../src/components/group/groupView.js": {
+        "version": "1ebd176276cc40a5e78c2b789479bf92009412f3145537fee4a6e1bc9b01a8da",
+        "signature": "b2327402b96f92ad2f70e320d5abadd346878a68f19b9394e20c6f8261d5044d",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/proGallery/galleryHelpers.js": {
+        "version": "bd9774967ad2b49ec6d257f77b2349ab4c4947129587eebc29bc8992064a671b",
+        "signature": "66e7a3c4f1669fba3d007e1ad3d8e02af825654de326aef3bd495ff93dccfa1a",
+        "affectsGlobalScope": false
+      },
+      "../src/components/svgs/components/play.js": {
+        "version": "f08a4417388237a60a7035725ddd99db49cc178120fb3a2f2fa42d067a48f651",
+        "signature": "62f36b9cabe126cd07f0501bb05d2c9a416faaf9d0d49f2d693ce3f98eb95132",
+        "affectsGlobalScope": false
+      },
+      "../src/components/svgs/components/pause.js": {
+        "version": "0f58fefe8843f8c4a5d1fcd537ec186843643fcfd48fd5d41c89ff280320cca2",
+        "signature": "bc7146034e694a0c8cfea15a9f777cbec0e6faf8bdd1aa3ea18681cbe1c00ac4",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/proGallery/slideshowView.js": {
+        "version": "f2b3e18f7a9459248c8242eafdd1ac00e50d12747c8e296d592dcb7f3befe17b",
+        "signature": "15de66894d9566714a2975ad46bd625eb1d53cb9f048f3b707680ef62df8a48b",
+        "affectsGlobalScope": false
+      },
+      "../src/components/helpers/layoutHelper.js": {
+        "version": "34b12e1b028d7caa32c3a8b0a6173e4af85e282303c9fe09c083e8793ac58b86",
+        "signature": "6a205f3876e34d14a9543a9ce41546afa0cff3231324eef8f259925971d210eb",
+        "affectsGlobalScope": false
+      },
+      "../src/components/helpers/scrollHelper.js": {
+        "version": "6b5e9dfd02bbb1815f211c3ba98ad10cbf4bcc0ca9bd4fe91a5cc3b5eebeac78",
+        "signature": "ad95cd9ecc118b7577ae58c486c36b38cffc3c3b5a7bf955904316150b8eb007",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/proGallery/galleryScrollIndicator.js": {
+        "version": "919b78c90798e22d5ed4d691054fbcc3cb93cd0a16f66dc0155bbdefec9a72b2",
+        "signature": "b159cd53a07cf32b0e9c152bc20b6b417b79525a0f34caf2f7edc38a751ae6b0",
+        "affectsGlobalScope": false
+      },
+      "../src/components/helpers/cssLayoutsHelper.js": {
+        "version": "03cf16ef4ad8b9916d84c031ebd6dbd9fbf17a99ef989891b2cd6b2328e6641b",
+        "signature": "f4579460d64772f870c6cfcccba56a0be559cec1bbe427a2bede7092dc0a8ed8",
+        "affectsGlobalScope": false
+      },
+      "../src/components/helpers/isNew.js": {
+        "version": "0755c446934c8fb004ee858db9e65801a162e6e6ba9d139eb953ff26e169eddd",
+        "signature": "8503b5ac4f7778901113cfa63ba7c75be1850673c264b2cbbbffc3ba8c46e412",
+        "affectsGlobalScope": false
+      },
+      "../src/components/helpers/videoScrollHelper.js": {
+        "version": "cc536dc48d97c3e03c24c936d03a568cabf1e8272b733bec6ba274c2797218d1",
+        "signature": "8d37596b7dfe7e3264d71a7d08b335752d8a78d815a17522ba466e6bb21d30a9",
+        "affectsGlobalScope": false
+      },
+      "../src/components/helpers/videoScrollHelperWrapper.js": {
+        "version": "7fe3cf84c58f27b3e4bdb4d3e8862698d747bf2523decebdedd71d39428e7687",
+        "signature": "88449415ffb2ce4bb25f0084081a8484964ad1f513337033782b0edae76bb3db",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/proGallery/galleryContainerNew.js": {
+        "version": "52b6bbba6d17eda3d439d526174ce22e77950caea3b8e561b18465da8ee91516",
+        "signature": "0fda3baae7d14c0c066c35741fdbbc699a34cff6b1dc3f6893c648c89025235e",
+        "affectsGlobalScope": false
+      },
+      "../src/versionLogger.js": {
+        "version": "46e6ae3cd2521d8db4c52ffa3b7e408d2085532e0d6c66e151d6266344203f0d",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../src/components/gallery/proGallery/proGallery.js": {
+        "version": "21f59436d7cdeda6c5dd8d325959f2cbd3d484cedd7bf303d34e064c3092bdd0",
+        "signature": "d3dd557db97d5c934c9d56e397d1680c0c6f77ec994d13d42126058f1475400c",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/proGallery/propTypes.js": {
+        "version": "ace02214a3fb5ac1096c0dea9408f0636bd1b3e564f21a68cee981b6a5ba4378",
+        "signature": "a40af68792b3857c8246be3562d77d6ce4cedfa8256300bddace82786e2a2d2e",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/index.js": {
+        "version": "1eac4e8fe930d428ba4d185fb28890650d54406474074ebb096dc673aa5f810c",
+        "signature": "580dc0f2a681f3b7106b2dea4f6217aa200819bc36fdc98b5a9ebc57994b63d8",
+        "affectsGlobalScope": false
+      },
+      "../src/components/helpers/layoutUtils.js": {
+        "version": "a08548b06d265f45a68aece2890127a153c8137f3218490f49ddbd46b0acb387",
+        "signature": "c24491a08cd4a69078303caf716b4ab1ef136cf4e97fa3c2b3644e009f248f07",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/proGallery/galleryContainerExtraNew.js": {
+        "version": "a4f8f7dd680a98546d13dbcbf09738d0c64ee5dd16a2f1e31c3611f976b68eca",
+        "signature": "7984b9fff9aabe0352510bbbf2e84bf70d6360d0dec089f8b199d464eaf72e77",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/proGallery/proBlueprintsGallery.js": {
+        "version": "25d5c485fbdee06bedadf92f85f3523a9e67f000f7f318705cf12d8ca11b8901",
+        "signature": "51696065cf1818e913533d12085c8bb3de2cee1637d90cd88926fe2fbd17f04d",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/blueprintsIndex.js": {
+        "version": "4ef1a3586cb88391e3de01b09c8d30f67bf25d7e3c8e55f8cbfa7b0263a8deb6",
+        "signature": "9262456378c0760dcb1351992a603c2584043b812cb8d5c4d060436edb78ff98",
+        "affectsGlobalScope": false
+      },
+      "../src/components/gallery/layoutingIndex.js": {
+        "version": "8de6febe03face8433f22dd1dda962fa015da12b49611f5cfe44e20b2771a4bb",
+        "signature": "3244691e170f6c6f0c81467439c120da9fb5a21d957d4b88ee96ec8017414e30",
+        "affectsGlobalScope": false
+      },
+      "../src/index.ts": {
+        "version": "7f53b2c1b4da88b2bfcbde8c4357745538e0e417f13edbae82a85ff2dabdd26d",
+        "signature": "e4a1c1a761eed0a382e897739fe6ceb098e6dcbafae4d8f7a99f610236817023",
+        "affectsGlobalScope": false
+      },
+      "../src/components/svgs/components/x.js": {
+        "version": "1a314e4d019ba4db9c963eddbc2ca3e5e31853e7b165d13e1a38f6147271b01b",
+        "signature": "153253da9214be1d50c793982337554f71484f894fdec0fa19e62f27ae6e673f",
+        "affectsGlobalScope": false
+      },
+      "../src/components/svgs/index.js": {
+        "version": "87afe08f916051074bda7ad5bd0eb5a169ce2db8d62ae8a491e10fae5bbda360",
+        "signature": "61d9b8fcc825ff8223d16d98b0d4eab57fef8ef002fece4354dcb6a7febb29b8",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "allowJs": true,
+      "target": 1,
+      "module": 1,
+      "outDir": "./cjs",
+      "lib": [
+        "lib.dom.d.ts",
+        "lib.dom.iterable.d.ts",
+        "lib.esnext.d.ts"
+      ],
+      "incremental": true,
+      "moduleResolution": 2,
+      "rootDir": "../src",
+      "declarationDir": "./types",
+      "declaration": true,
+      "sourceMap": true,
+      "importHelpers": true,
+      "esModuleInterop": true,
+      "jsx": 2,
+      "strict": true,
+      "noImplicitAny": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "skipLibCheck": true,
+      "noEmit": false,
+      "forceConsistentCasingInFileNames": true,
+      "allowSyntheticDefaultImports": true,
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../src/components/gallery/blueprintsIndex.js": [
+        "../src/components/gallery/proGallery/proBlueprintsGallery.js",
+        "../src/components/gallery/proGallery/propTypes.js"
+      ],
+      "../src/components/gallery/index.js": [
+        "../src/components/gallery/proGallery/proGallery.js",
+        "../src/components/gallery/proGallery/propTypes.js"
+      ],
+      "../src/components/gallery/layoutingIndex.js": [
+        "../src/components/gallery/proGallery/proBlueprintsGallery.js",
+        "../src/components/gallery/proGallery/propTypes.js"
+      ],
+      "../src/components/gallery/proGallery/galleryContainerExtraNew.js": [
+        "../src/components/gallery/proGallery/galleryScrollIndicator.js",
+        "../src/components/gallery/proGallery/galleryView.js",
+        "../src/components/gallery/proGallery/slideshowView.js",
+        "../src/components/helpers/cssLayoutsHelper.js",
+        "../src/components/helpers/cssScrollHelper.js",
+        "../src/components/helpers/layoutUtils.js",
+        "../src/components/helpers/scrollHelper.js",
+        "../src/components/helpers/videoScrollHelperWrapper.js"
+      ],
+      "../src/components/gallery/proGallery/galleryContainerNew.js": [
+        "../src/components/gallery/proGallery/galleryScrollIndicator.js",
+        "../src/components/gallery/proGallery/galleryView.js",
+        "../src/components/gallery/proGallery/slideshowView.js",
+        "../src/components/helpers/cssLayoutsHelper.js",
+        "../src/components/helpers/cssScrollHelper.js",
+        "../src/components/helpers/isNew.js",
+        "../src/components/helpers/layoutHelper.js",
+        "../src/components/helpers/scrollHelper.js",
+        "../src/components/helpers/videoScrollHelperWrapper.js"
+      ],
+      "../src/components/gallery/proGallery/galleryDebugMessage.js": [
+        "../src/components/galleryComponent.js"
+      ],
+      "../src/components/gallery/proGallery/galleryScrollIndicator.js": [
+        "../src/components/galleryComponent.js",
+        "../src/components/helpers/cssScrollHelper.js"
+      ],
+      "../src/components/gallery/proGallery/galleryView.js": [
+        "../src/components/gallery/proGallery/galleryDebugMessage.js",
+        "../src/components/galleryComponent.js",
+        "../src/components/item/itemView.js"
+      ],
+      "../src/components/gallery/proGallery/proBlueprintsGallery.js": [
+        "../src/components/gallery/proGallery/galleryContainerExtraNew.js",
+        "../src/components/gallery/proGallery/proGallery.js"
+      ],
+      "../src/components/gallery/proGallery/proGallery.js": [
+        "../src/components/gallery/proGallery/galleryContainerNew.js",
+        "../src/components/galleryComponent.js"
+      ],
+      "../src/components/gallery/proGallery/slideshowView.js": [
+        "../src/components/gallery/proGallery/galleryDebugMessage.js",
+        "../src/components/gallery/proGallery/galleryHelpers.js",
+        "../src/components/galleryComponent.js",
+        "../src/components/group/groupView.js",
+        "../src/components/item/textItem.js",
+        "../src/components/svgs/components/pause.js",
+        "../src/components/svgs/components/play.js"
+      ],
+      "../src/components/galleryComponent.js": [
+        "../src/context/GalleryContext.js"
+      ],
+      "../src/components/group/groupView.js": [
+        "../src/components/galleryComponent.js",
+        "../src/components/item/itemView.js"
+      ],
+      "../src/components/helpers/cssLayoutsHelper.js": [
+        "../src/components/helpers/cssScrollHelper.js"
+      ],
+      "../src/components/helpers/videoScrollHelper.js": [
+        "../src/components/helpers/scrollHelper.js"
+      ],
+      "../src/components/helpers/videoScrollHelperWrapper.js": [
+        "../src/components/helpers/videoScrollHelper.js"
+      ],
+      "../src/components/item/imageItem.js": [
+        "../src/components/galleryComponent.js"
+      ],
+      "../src/components/item/itemHover.js": [
+        "../src/components/galleryComponent.js"
+      ],
+      "../src/components/item/itemView.js": [
+        "../src/components/galleryComponent.js",
+        "../src/components/helpers/cssScrollHelper.js",
+        "../src/components/item/imageItem.js",
+        "../src/components/item/itemHover.js",
+        "../src/components/item/itemViewStyleProvider.js",
+        "../src/components/item/textItem.js",
+        "../src/components/item/videos/videoItemWrapper.js"
+      ],
+      "../src/components/item/textItem.js": [
+        "../src/components/galleryComponent.js"
+      ],
+      "../src/components/item/videos/videoItem.js": [
+        "../src/components/galleryComponent.js"
+      ],
+      "../src/components/item/videos/videoItemPlaceholder.js": [
+        "../src/components/item/imageItem.js"
+      ],
+      "../src/components/item/videos/videoItemWrapper.js": [
+        "../src/components/item/imageItem.js",
+        "../src/components/item/videos/videoItem.js",
+        "../src/components/item/videos/videoItemPlaceholder.js",
+        "../src/components/svgs/components/play_background.js",
+        "../src/components/svgs/components/play_triangle.js"
+      ],
+      "../src/components/svgs/index.js": [
+        "../src/components/svgs/components/pause.js",
+        "../src/components/svgs/components/play.js",
+        "../src/components/svgs/components/play_background.js",
+        "../src/components/svgs/components/play_triangle.js",
+        "../src/components/svgs/components/x.js"
+      ],
+      "../src/index.ts": [
+        "../src/components/gallery/blueprintsIndex.js",
+        "../src/components/gallery/index.js",
+        "../src/components/gallery/layoutingIndex.js",
+        "../src/components/helpers/cssScrollHelper.js",
+        "../src/components/helpers/layoutHelper.js"
+      ]
+    },
+    "exportedModulesMap": {
+      "../src/components/item/videos/videoItemWrapper.js": [
+        "../src/components/item/videos/videoItem.js"
+      ],
+      "../src/index.ts": [
+        "../src/components/gallery/blueprintsIndex.js",
+        "../src/components/gallery/index.js",
+        "../src/components/gallery/layoutingIndex.js",
+        "../src/components/helpers/cssScrollHelper.js",
+        "../src/components/helpers/layoutHelper.js"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2016.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.array.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.object.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.string.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.intl.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.promise.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.string.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.promise.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.string.d.ts",
+      "../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.weakref.d.ts",
+      "../src/common/utils/polyfills.js",
+      "../src/components/gallery/blueprintsIndex.js",
+      "../src/components/gallery/index.js",
+      "../src/components/gallery/layoutingIndex.js",
+      "../src/components/gallery/proGallery/galleryContainerExtraNew.js",
+      "../src/components/gallery/proGallery/galleryContainerNew.js",
+      "../src/components/gallery/proGallery/galleryDebugMessage.js",
+      "../src/components/gallery/proGallery/galleryHelpers.js",
+      "../src/components/gallery/proGallery/galleryScrollIndicator.js",
+      "../src/components/gallery/proGallery/galleryView.js",
+      "../src/components/gallery/proGallery/proBlueprintsGallery.js",
+      "../src/components/gallery/proGallery/proGallery.js",
+      "../src/components/gallery/proGallery/propTypes.js",
+      "../src/components/gallery/proGallery/slideshowView.js",
+      "../src/components/galleryComponent.js",
+      "../src/components/group/groupView.js",
+      "../src/components/helpers/cssLayoutsHelper.js",
+      "../src/components/helpers/cssScrollHelper.js",
+      "../src/components/helpers/isNew.js",
+      "../src/components/helpers/layoutHelper.js",
+      "../src/components/helpers/layoutUtils.js",
+      "../src/components/helpers/scrollHelper.js",
+      "../src/components/helpers/videoScrollHelper.js",
+      "../src/components/helpers/videoScrollHelperWrapper.js",
+      "../src/components/item/imageItem.js",
+      "../src/components/item/itemHover.js",
+      "../src/components/item/itemView.js",
+      "../src/components/item/itemViewStyleProvider.js",
+      "../src/components/item/textItem.js",
+      "../src/components/item/videos/videoItem.js",
+      "../src/components/item/videos/videoItemPlaceholder.js",
+      "../src/components/item/videos/videoItemWrapper.js",
+      "../src/components/svgs/components/pause.js",
+      "../src/components/svgs/components/play.js",
+      "../src/components/svgs/components/play_background.js",
+      "../src/components/svgs/components/play_triangle.js",
+      "../src/components/svgs/components/x.js",
+      "../src/components/svgs/index.js",
+      "../src/context/GalleryContext.js",
+      [
+        "../src/index.ts",
+        [
+          {
+            "file": "../src/index.ts",
+            "start": 9,
+            "length": 21,
+            "messageText": "This syntax requires an imported helper but module 'tslib' cannot be found.",
+            "category": 1,
+            "code": 2354
+          },
+          {
+            "file": "../src/index.ts",
+            "start": 426,
+            "length": 17,
+            "messageText": "Cannot find module 'pro-gallery-lib' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "../src/index.ts",
+            "start": 477,
+            "length": 17,
+            "messageText": "Cannot find module 'pro-gallery-lib' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "../src/index.ts",
+            "start": 526,
+            "length": 17,
+            "messageText": "Cannot find module 'pro-gallery-lib' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
+      "../src/versionLogger.js"
+    ]
+  },
+  "version": "4.1.3"
+}

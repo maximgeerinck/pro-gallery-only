@@ -1,0 +1,84 @@
+export default SlideshowView;
+declare class SlideshowView extends GalleryComponent {
+    constructor(props: any);
+    navigationOutHandler(): void;
+    navigationInHandler(): void;
+    scrollToThumbnail(itemIdx: any, scrollDuration: any): void;
+    stopAutoSlideshow(): void;
+    onAutoSlideShowButtonClick(): void;
+    startAutoSlideshowIfNeeded(styleParams: any): void;
+    handleSlideshowKeyPress(e: any): boolean;
+    onAutoSlideshowAutoPlayKeyPress(e: any): boolean;
+    setCurrentItemByScroll(): number | undefined;
+    _setCurrentItemByScroll: any;
+    _next: any;
+    state: {
+        currentIdx: any;
+        isInView: boolean;
+        shouldStopAutoSlideShow: boolean;
+        hideLeftArrow: boolean;
+        hideRightArrow: any;
+    };
+    lastCurrentItem: any;
+    shouldCreateSlideShowPlayButton: boolean;
+    shouldCreateSlideShowNumbers: boolean;
+    skipFromSlide: number;
+    isFirstItem(): boolean;
+    isScrollStart(): boolean;
+    isScrollEnd(): boolean;
+    isFirstItemFullyVisible(): boolean;
+    isLastItemFullyVisible(): boolean;
+    isLastItem(): boolean;
+    createNewItemsForSlideshowLoopThumbnails(): void;
+    ItemsForSlideshowLoopThumbnails: boolean | any[] | undefined;
+    numOfThumbnails: number | undefined;
+    next({ direction, isAutoTrigger, scrollDuration, isKeyboardNavigation, }: {
+        direction: any;
+        isAutoTrigger: any;
+        scrollDuration: any;
+        isKeyboardNavigation?: boolean | undefined;
+    }): void;
+    nextItem({ direction, isAutoTrigger, scrollDuration, avoidIndividualNavigation, ignoreScrollPosition, }: {
+        direction: any;
+        isAutoTrigger: any;
+        scrollDuration: any;
+        avoidIndividualNavigation: any;
+        ignoreScrollPosition: any;
+    }): void;
+    isSliding: boolean | undefined;
+    isAutoScrolling: boolean | undefined;
+    nextGroup({ direction, isAutoTrigger, scrollDuration }: {
+        direction: any;
+        isAutoTrigger: any;
+        scrollDuration: any;
+    }): void;
+    onCurrentItemChanged(): void;
+    autoSlideshowInterval: number | undefined;
+    autoScrollToNextItem: () => void;
+    createThumbnails(thumbnailPosition: any): any;
+    firstItemIdx: number | undefined;
+    lastItemIdx: number | undefined;
+    getCenteredItemIdxByScroll(): number | undefined;
+    getCenteredGroupIdxByScroll(): number | undefined;
+    createDebugMsg(): any;
+    createNavArrows(): any[] | null;
+    createLayout(): any;
+    createGallery(): any;
+    isFullWidthGallery(): boolean;
+    calcSlideshowCounterWidth(): 26 | 43 | 60 | 76;
+    createAutoSlideShowPlayButton(): any;
+    createSlideShowNumbers(): any;
+    getThumbnails(): any[];
+    getClassNames(): string;
+    getStyles(): {
+        margin: number;
+    };
+    getScrollLeft(): number;
+    UNSAFE_componentWillReceiveProps(props: any): void;
+    removeArrowsIfNeeded(): void;
+    componentDidMount(): void;
+    container: any;
+    componentWillUnmount(): void;
+    render(): any;
+}
+import { GalleryComponent } from "../../galleryComponent.js";
